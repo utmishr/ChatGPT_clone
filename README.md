@@ -1,5 +1,5 @@
-# ChatGPT_Clone
-ChatGPT Clone is a chatbot application built using modern web technologies. It leverages React for the frontend, CSS for styling, Node.js for the backend, and the OpenAI API to power the conversational AI model with GPT-3.5 Turbo. This README file provides an overview of the project, instructions on how to set it up.
+# TurboTalk
+TurboTalk is a chatbot application built using modern web technologies. It leverages React for the frontend, CSS for styling, Node.js for the backend, and the OpenAI API to power the conversational AI model with GPT-3.5 Turbo. This README file provides an overview of the project, instructions on how to set it up.
 
 ## Installation
 
