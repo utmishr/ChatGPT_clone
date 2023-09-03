@@ -91,7 +91,7 @@ const App=()=> {
         </nav>
       </section>
       <section className="main">
-        {!currentTitle && <h1>GPT Clone</h1>}
+        {!currentTitle && <h1>TurboTalk</h1>}
         <ul className="feed">
   {currentChat?.map((chatMessage, index) => (
     <li key={index} className="chat-item">
