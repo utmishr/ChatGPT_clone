@@ -17,7 +17,7 @@ TurboTalk is a chatbot application built using modern web technologies. It lever
 
 3. **Generate OpenAI API Key**:
 
-   To use ChatGPT Clone, you'll need an API key from OpenAI. Follow these steps to obtain one:
+   To use TurboTalk, you'll need an API key from OpenAI. Follow these steps to obtain one:
 
    Visit the OpenAI website and create an account or log in if you already have one.
    Once logged in, go to your account settings or developer dashboard to create a new API key.
