@@ -6,7 +6,7 @@ TurboTalk is a chatbot application built using modern web technologies. It lever
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/utmishr/ChatGPT_clone.git
+   git clone https://github.com/utmishr/TurboTalk.git
    ```
 
 2. **Install Dependencies**:
