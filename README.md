@@ -1,5 +1,5 @@
 # ChatGPT_clone
-ChatGPT Clone is a chatbot application built using [mention the framework or technology you used] that allows users to interact with a conversational AI model similar to OpenAI's GPT-3. This README file provides an overview of the project, instructions on how to set it up, and guidelines for contributing.
+ChatGPT Clone is a chatbot application built using modern web technologies. It leverages React for the frontend, CSS for styling, Node.js for the backend, and the OpenAI API to power the conversational AI model with GPT-3.5 Turbo. This README file provides an overview of the project, instructions on how to set it up.
 
 ## Installation
 
