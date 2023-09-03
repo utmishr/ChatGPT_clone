@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #343541;
+  display: flex;
+}
+
+.side-bar {
+  background-color: #202123;
+  height: 100vh;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+.history li {
+  list-style-type: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding: 10px;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px; 
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px,
+    rgba(0, 0, 0, 0.05) 0 -12px 30px,
+    rgba(0, 0, 0, 0.05) 0 4px 6px,
+    rgba(0, 0, 0, 0.05) 0 12px 3px,
+    rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+#submit {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  cursor: pointer;
+}
+
+
+.feed {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin; /* Make the scrollbar thinner in Firefox */
+  scrollbar-color: #ccc #f0f0f0;
+  width: 100%;
+  padding: 0;
+}
+
+.feed::-webkit-scrollbar {
+  width: 6px; /* Make the scrollbar thinner in Chrome, Safari, and newer Edge */
+}
+
+.feed::-webkit-scrollbar-track {
+  background-color: #202123; /* Set the background color of the scrollbar track */
+}
+
+.feed::-webkit-scrollbar-thumb {
+  background-color: #24273c; /* Set the color of the scrollbar thumb */
+}
+
+.feed li {
+  display: flex;
+  background-color: #444654;
+  /* width: 80%; */
+  padding: 20px;
+  margin: 20px 80px;
+}
+
+.feed p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  text-align: left;
+}
+
+.feed p.role {
+  min-width: 100px;
+}
+
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+  
+}
+
+.history li {
+  list-style-type: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+}
+.role-icon {
+  width: 25px; /* Adjust the width as needed to make it smaller */
+  height: 30px; /* Maintain aspect ratio */
+  margin-right: 18px;
+}
+
+.data{
+  margin-left: 10px;
+  font-size:16px !important;
+}
+
+/* 
+
+ */
+/*
+
+
+
+
+
+
+
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px; 
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px,
+    rgba(0, 0, 0, 0.05) 0 -12px 30px,
+    rgba(0, 0, 0, 0.05) 0 4px 6px,
+    rgba(0, 0, 0, 0.05) 0 12px 3px,
+    rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+
+
+
+
+
+*/
